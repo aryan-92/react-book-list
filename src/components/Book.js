@@ -1,9 +1,9 @@
 import React from 'react'
 
-//function Book(props) {
-function Book({ img, author, title, children }) {
-    //console.log(props);
-    //const { img, author, title } = props; //
+function Book(props) {
+//function Book({ img, author, title, children }) {
+    console.log(props);
+    const { img, author, title, children } = props; //
     // const Image = () => {
     //     return <div className="bookImg">
     //         <img src="/images/book1.jpg" alt="" />
