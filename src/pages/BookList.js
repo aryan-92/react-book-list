@@ -21,7 +21,7 @@ function BookList() {
                        
                     ))} */}
           {Books.map((book, index) => {
-            const { img, title, author,id } = book;
+            //const { img, title, author,id } = book;
             return (
               // <Book  book={book} key={id} />
               <Book  {...book} key={book.id} />
